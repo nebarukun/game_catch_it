@@ -16,7 +16,7 @@ The cube becomes smaller depending on how much time has passed.
 
 nebaru - hello@wdtools.org
 
-Project - [GitHub](https://github.com/nebarukun/)
+Project - [GitHub](https://github.com/nebarukun/game_catch_it)
 
 Website - [WDTools.org](https://wdtools.org/)
 
