@@ -6,7 +6,7 @@
 
 A small catch it game made with HTML, CSS (Less) and JavaScript (jQuery).
 
-You can choose how many you want to play.
+You can choose how many minutes you want to play.
 
 The cube becomes smaller depending on how much time has passed.
 
