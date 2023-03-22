@@ -1,0 +1,50 @@
+#main {
+  height: "calc(100vh - 20px)";
+  position: relative;
+  background: @color-bg;
+  display: block;
+  cursor: none;
+
+  body.game_settings_active & {
+    display: none;
+  }
+
+  body.game_over & {
+    display: none;
+  }
+
+
+  .line_x {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: @color-green;
+    width: 100vw;
+  }
+
+  .line_y {
+    position: absolute;
+    top: -20px;
+    bottom: 0;
+    width: 1px;
+    background: @color-pink;
+    height: 100vh;
+  }
+
+
+  #try_to_catch {
+    position: absolute;
+    display: block;
+
+    &.green {
+      background: @color-green;
+    }
+
+    &.pink {
+      background: @color-pink;
+    }
+  }
+
+
+}

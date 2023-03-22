@@ -1,0 +1,46 @@
+#header {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+
+  body.game_settings_active & {
+    display: none;
+  }
+
+  body.game_over & {
+    display: none;
+  }
+
+
+  #score_container {
+    color: @color-green;
+
+    .counter {
+      position: absolute;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+
+  #time_container {
+    color: @color-pink;
+
+    #time_left {
+
+
+    }
+  }
+
+
+}
+
+
+
